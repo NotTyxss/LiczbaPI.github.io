@@ -1,0 +1,140 @@
+[WARN] [2024-03-26 20:09:48] PHP CLI jest wyłączane ręcznie, wtyczka pominie wszystkie kroki PHP CLI.
+[WARN] [2024-03-26 20:09:48] Plik PHP CLI nie może zostać wykonany z nieznanego powodu.
+[STEP] [2024-03-26 20:09:48] Inicjowanie procesu tworzenia kopii zapasowej…
+[INFO] [2024-03-26 20:09:48] Wersja Backup & Migration: 1.4.3
+[INFO] [2024-03-26 20:09:48] Zostanie utworzona kopia zapasowa następującej witryny: http://liczba-pi.loc
+[INFO] [2024-03-26 20:09:48] Wersja PHP: 8.1.10
+[INFO] [2024-03-26 20:09:48] Wersja WP: 6.4.3
+[INFO] [2024-03-26 20:09:48] Wersja MySQL: 8.0.30
+[INFO] [2024-03-26 20:09:48] Maksymalna długość MySQL: 536870912
+[INFO] [2024-03-26 20:09:48] Serwer WWW: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10
+[INFO] [2024-03-26 20:09:48] Maksymalny czas wykonania (w sekundach): 36000
+[INFO] [2024-03-26 20:09:48] Limit pamięci (serwer): 512M
+[INFO] [2024-03-26 20:09:48] Limit pamięci (wp-config): 40M
+[INFO] [2024-03-26 20:09:48] Limit pamięci (wp-config admin): 512M
+[INFO] [2024-03-26 20:09:48] Maks. liczba wierszy na jedno zapytanie (ta strona):2000
+[INFO] [2024-03-26 20:09:48] Sprawdzanie, czy można zapisać katalog kopii zapasowej…
+[INFO] [2024-03-26 20:09:48] Inicjowanie niestandardowego modułu obsługi błędów
+[SUCCESS] [2024-03-26 20:09:48] Tak, można zapisać…
+[STEP] [2024-03-26 20:09:48] Skanowanie plików…
+[WARN] [2024-03-26 20:09:48] Usuwanie pliku z kopii zapasowej (z powodu reguł ścieżki): C:\laragon\www\Liczba-PI\wp-content\backup-migration-config.php
+[INFO] [2024-03-26 20:09:48] Całkowity rozmiar wykluczonych plików: 2133 bajtów
+[VERBOSE] [2024-03-26 20:09:48] Total size of excluded files (bytes): 2133
+[STEP] [2024-03-26 20:09:48] Sprawdzanie dostępnego miejsca. Rezerwowanie…
+[INFO] [2024-03-26 20:09:48] Wymaga co najmniej 190431120 bajtów. [181.61 MB]
+[INFO] [2024-03-26 20:09:48] Funkcja służąca do wykrywania wolnego miejsca na dysku nie jest wyłączona – korzystanie z funkcji…
+[INFO] [2024-03-26 20:09:48] Sprawdzanie tej ścieżki/partycji: C:\laragon\www\Liczba-PI\wp-content\backup-migration\backups
+[SUCCESS] [2024-03-26 20:09:48] Jest 55,084.70 MB wolnego miejsca. [53.79 GB]
+[SUCCESS] [2024-03-26 20:09:48] Świetnie! Dostępna jest wystarczająca ilość miejsca.
+[SUCCESS] [2024-03-26 20:09:48] Potwierdzono wystarczającą ilość miejsca. Sprawdzono: 190431120 bajtów
+[INFO] [2024-03-26 20:09:48] Skanowanie zakończone – znaleziono 5405 plików…
+[SUCCESS] [2024-03-26 20:09:48] Tworzenie kopii zapasowej rozpoczęte…
+[STEP] [2024-03-26 20:09:48] Rozpoczynanie archiwizacji…
+[SUCCESS] [2024-03-26 20:09:48] Archiwizacja rozpoczęta…
+[STEP] [2024-03-26 20:09:49] Przygotowywanie mapy plików…
+[SUCCESS] [2024-03-26 20:09:49] Pliki zostały przygotowane.
+[INFO] [2024-03-26 20:09:49] Rozpoczynanie procesu kompresji…
+[STEP] [2024-03-26 20:09:49] Inteligentne obliczanie pamięci…
+[INFO] [2024-03-26 20:09:49] Do wykorzystania jest 512 MB pamięci
+[INFO] [2024-03-26 20:09:49] Limit pamięci WordPressa: 512 MB
+[SUCCESS] [2024-03-26 20:09:49] Ustawianie bezpiecznego limitu na 115 MB
+[INFO] [2024-03-26 20:09:49] Korzystanie z modułu PclZip do stworzenia kopii zapasowej
+[INFO] [2024-03-26 20:09:49] Poprzednie ustawienie: używanie domyślnych modułów w zależności od serwera użytkownika
+[STEP] [2024-03-26 20:09:49] Tworzenie kopii zapasowej bazy danych (używając silnika v3, do przywrócenia wymagane jest co najmniej v1.2.2)
+[INFO] [2024-03-26 20:09:49] Iteracja bazy danych…
+[INFO] [2024-03-26 20:09:49] Memory usage after initialization: 53.65 MB
+[VERBOSE] [2024-03-26 20:09:49] Exporting database via zip.php
+[INFO] [2024-03-26 20:09:49] Scan found 26 tables (1137 rows), estimated total size: 8.64 MB.
+[INFO] [2024-03-26 20:09:49] Memory usage after getting table names: 53.66 MB 
+[INFO] [2024-03-26 20:09:49] Getting table recipes...
+[INFO] [2024-03-26 20:09:49] Table recipes have been exported.
+[INFO] [2024-03-26 20:09:49] Memory usage after loading recipes: 53.68 MB 
+[INFO] [2024-03-26 20:09:49] Saving recipes...
+[INFO] [2024-03-26 20:09:49] Recipes saved.
+[INFO] [2024-03-26 20:09:49] Memory usage after recipe off-load: 53.67 MB
+[INFO] [2024-03-26 20:09:49] Exporting table data...
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_commentmeta (1/26, 0.05 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_commentmeta is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_comments (2/26, 0.09 MB)
+[SUCCESS] [2024-03-26 20:09:49] Table export for: wp_comments finished (0.00183s)
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_bans (3/26, 0.05 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_bans is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_dashboard_events (4/26, 0.03 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_dashboard_events is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_dashboard_lockouts (5/26, 0.03 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_dashboard_lockouts is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_distributed_storage (6/26, 0.03 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_distributed_storage is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_fingerprints (7/26, 0.05 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_fingerprints is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_firewall_rules (8/26, 0.06 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_firewall_rules is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_geolocation_cache (9/26, 0.05 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_geolocation_cache is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_lockouts (10/26, 0.09 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_lockouts is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_logs (11/26, 0.13 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_logs is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_mutexes (12/26, 0.03 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_mutexes is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_opaque_tokens (13/26, 0.03 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_opaque_tokens is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_temp (14/26, 0.08 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_temp is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_user_groups (15/26, 0.02 MB)
+[SUCCESS] [2024-03-26 20:09:49] Table export for: wp_itsec_user_groups finished (0.00195s)
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_itsec_vulnerabilities (16/26, 0.06 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_itsec_vulnerabilities is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_links (17/26, 0.03 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_links is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_options (18/26, 2.09 MB)
+[SUCCESS] [2024-03-26 20:09:49] Table export for: wp_options finished (0.01903s)
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_postmeta (19/26, 0.27 MB)
+[SUCCESS] [2024-03-26 20:09:49] Table export for: wp_postmeta finished (0.01061s)
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_posts (20/26, 5.08 MB)
+[SUCCESS] [2024-03-26 20:09:49] Table export for: wp_posts finished (0.17272s)
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_term_relationships (21/26, 0.03 MB)
+[SUCCESS] [2024-03-26 20:09:49] Table export for: wp_term_relationships finished (0.00169s)
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_term_taxonomy (22/26, 0.05 MB)
+[SUCCESS] [2024-03-26 20:09:49] Table export for: wp_term_taxonomy finished (0.00093s)
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_termmeta (23/26, 0.05 MB)
+[INFO] [2024-03-26 20:09:49] Table wp_termmeta is empty, saving only recipe.
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_terms (24/26, 0.05 MB)
+[SUCCESS] [2024-03-26 20:09:49] Table export for: wp_terms finished (0.00168s)
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_usermeta (25/26, 0.05 MB)
+[SUCCESS] [2024-03-26 20:09:49] Table export for: wp_usermeta finished (0.00175s)
+[STEP] [2024-03-26 20:09:49] Getting data of table: wp_users (26/26, 0.06 MB)
+[SUCCESS] [2024-03-26 20:09:49] Table export for: wp_users finished (0.00127s)
+[INFO] [2024-03-26 20:09:49] Table data exported.
+[INFO] [2024-03-26 20:09:49] Memory usage after data export: 53.71 MB
+[INFO] [2024-03-26 20:09:49] Entire process took: 0.3676 s
+[SUCCESS] [2024-03-26 20:09:49] Utworzono kopię zapasową bazy danych
+[STEP] [2024-03-26 20:09:49] Tworzenie archiwum
+[INFO] [2024-03-26 20:09:49] Kompresowanie…
+[WARN] [2024-03-26 20:09:49] Tworzenie kopii zapasowej uruchomi się jako pojedyncze żądanie, proces może być niestabilny…
+[STEP] [2024-03-26 20:09:49] Dodawanie pliku(-ów) SQL bazy danych do pliku kopii zapasowej.
+[VERBOSE] [2024-03-26 20:09:49] Database files in total found: 26
+[SUCCESS] [2024-03-26 20:09:49] Baza danych została pomyślnie dodana do kopii zapasowej.
+[STEP] [2024-03-26 20:09:49] Wykonywanie kopii zapasowej plików strony...
+[INFO] [2024-03-26 20:09:49] Fragmenty danych zawierają 500 plików.
+[INFO] [2024-03-26 20:09:56] Kamień milowy: 500/5405
+[INFO] [2024-03-26 20:10:01] Kamień milowy: 1000/5405
+[INFO] [2024-03-26 20:10:07] Kamień milowy: 1500/5405
+[INFO] [2024-03-26 20:10:14] Kamień milowy: 2000/5405
+[INFO] [2024-03-26 20:10:21] Kamień milowy: 2500/5405
+[INFO] [2024-03-26 20:10:28] Kamień milowy: 3000/5405
+[INFO] [2024-03-26 20:10:35] Kamień milowy: 3500/5405
+[INFO] [2024-03-26 20:10:42] Kamień milowy: 4000/5405
+[INFO] [2024-03-26 20:10:48] Kamień milowy: 4500/5405
+[INFO] [2024-03-26 20:10:55] Kamień milowy: 5000/5405
+[INFO] [2024-03-26 20:10:59] Kamień milowy: 5405/5405
+[SUCCESS] [2024-03-26 20:10:59] Skompresowano 5405 pliki/plików
+[INFO] [2024-03-26 20:10:59] Archiwizacja 5405 plików zajęło: 70.93s
+[STEP] [2024-03-26 20:10:59] Finalizacja procesu tworzenia kopii zapasowej
+[INFO] [2024-03-26 20:10:59] Generowanie pliku manifestu i zapisywanie bieżącego logu na żywo...
+[INFO] [2024-03-26 20:11:00] Dodawanie pliku manifestu…
+[SUCCESS] [2024-03-26 20:11:01] Plik manifestu i logi dodane do kopii zapasowej. Tymczasowe pliki zostały usunięte.
+[STEP] [2024-03-26 20:11:01] Zamykanie plików i archiwów
+[SUCCESS] [2024-03-26 20:11:01] Sprzątanie zakończone, kopia zapasowa gotowa.
+[SUCCESS] [2024-03-26 20:11:01] Utworzono nową kopię zapasową o nazwie: BM_2024-03-26_20_09_48_N9yB3QTOGJdlxA8c.zip
+[END-CODE] [2024-03-26 20:11:01] #001
